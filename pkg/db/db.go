@@ -17,6 +17,7 @@ var Executor boil.ContextExecutor
 // InitDB initializes the database connection
 func InitDB() {
 	var err error
+	//TODO - fetch from .env file
 	connStr := "postgres://postgres:111112@localhost:5432/building_management_system?sslmode=disable"
 	DB, err = sql.Open("postgres", connStr)
 	if err != nil {
