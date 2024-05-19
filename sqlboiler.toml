@@ -1,9 +1,0 @@
-output = "internal/models"
-
-[psql]
-dbname = "building_management_system"
-user = "postgres"
-pass = "111112"
-host = "localhost"
-port = 5432
-sslmode = "disable"
